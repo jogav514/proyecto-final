@@ -1,0 +1,28 @@
+:root {
+    --font-color: white;
+    --color-nav-bar: #000;
+}
+.nav-link, .navbar-brand{
+    color: white;
+    
+}
+.navbar-brand{
+    justify-content: center;
+    border:double darkgray;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+
+nav ul{
+    padding: 0 28%;
+}
+
+.container-fluid{
+    padding-left: 20px;
+}
+
+.d-flex{
+    padding: 0 20px;
+
+}
