@@ -2,6 +2,9 @@
     --font-color: white;
     --color-nav-bar: #000;
 }
+*{
+    margin: 0px auto;
+}
 .nav-link, .navbar-brand{
     color: white;
     
@@ -19,9 +22,7 @@ nav ul{
     padding: 0 28%;
 }
 
-.container-fluid{
-    padding-left: 20px;
-}
+
 
 .d-flex{
     padding: 0 20px;
