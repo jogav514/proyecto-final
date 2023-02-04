@@ -1,0 +1,56 @@
+h1,h2 {
+    text-align: center;
+    background: -webkit-linear-gradient(black, rgb(48, 48, 235));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: tomato;
+
+}
+
+img.imagen {
+    margin: 50px auto;
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main {
+    margin: 40px auto;
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(165, 164, 164);
+    padding: 15px;
+    
+}
+
+.card {
+    padding: 55px;
+    margin-right: 20px;
+    margin-top: 20px;
+    min-width: 320px;
+    text-align: center;
+    border: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+
+h2.program {
+    margin: 0;
+    padding: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.card img{
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    
+}
+a{
+    text-decoration: none;
+}
