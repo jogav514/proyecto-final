@@ -16,14 +16,14 @@ img.imagen {
 }
 
 .main {
-    margin: 40px auto;
+    margin: 45px auto;
     border: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     background-color: rgb(165, 164, 164);
-    padding: 15px;
-    
+    padding: 29px;
+    border-radius: 30px;
 }
 
 .card {
