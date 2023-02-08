@@ -1,1 +1,41 @@
-<p>signin works!</p>
+<form class="row g-3 d-flex col-md-6">
+    <h1>SignIn</h1>
+    <div class="col-md-*">
+        <label for="inputName" class="form-label">Name</label>
+        <input type="text" class="form-control" id="inputName" placeholder="Nombres">
+    </div>
+    <div class="col-md-*">
+        <label for="inputLastName" class="form-label">Last Name</label>
+        <input type="text" class="form-control" id="inputLastName" placeholder="Apellidos">
+    </div>
+    <div class="col-md-*">
+        <label for="inputIdentification" class="form-label">Identification Number</label>
+        <input type="number" class="form-control" id="inputIdentification" placeholder="Número de Identificacion">
+    </div>
+    <div class="col-md-*">
+        <label for="inputEmail" class="form-label">Email</label>
+        <input type="email" class="form-control" id="inputEmail" placeholder="Correo electronico">
+    </div>
+    <div class="col-md-*">
+        <label for="inputPhoneNumber" class="form-label">Phone Number</label>
+        <input type="number" class="form-control" id="inputPhoneNumber" placeholder="Número de celular">
+    </div>
+    <div class="col-md-*">
+        <label for="inputPassword" class="form-label">Password</label>
+        <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña">
+    </div>
+    <div class="col-md-*">
+        <label for="inputPasswordConfirm" class="form-label">Confirm Password</label>
+        <input type="password" class="form-control" id="inputPasswordConfirm" placeholder="Apellidos">
+    </div>
+    
+
+    <div class="col-* d-grid gap-2 d-md-block">
+        <button type="submit" class="btn btn-primary">SignIn</button>
+        <a  class="nav-link" routerLink="/login">LogIn</a>
+</div>
+</form>
+
+<main>
+    <router-outlet></router-outlet>
+</main>
