@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ContactComponent } from './contact/contact.component';
+import { EditpasswordComponent } from './editpassword/editpassword.component';
+import { EditprofileComponent } from './editprofile/editprofile.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { ProfileComponent } from './profile/profile.component';
@@ -36,6 +38,14 @@ const routes: Routes = [
   {
     path:'signin',
     component:SigninComponent,
+  },
+  {
+    path:'editprofile',
+    component:EditprofileComponent,
+  },
+  {
+    path:'editpassword',
+    component:EditpasswordComponent,
   },
   {
     path: '',

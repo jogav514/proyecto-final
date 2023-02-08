@@ -1,0 +1,14 @@
+form {
+    position: relative;
+    text-align: center;
+    margin: 50px auto;
+    padding: 1rem;
+    border: 0px black;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: lightblue;
+}
+
+h1 {
+    text-align: center;
+}
