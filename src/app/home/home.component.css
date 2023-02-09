@@ -26,13 +26,13 @@ img.imagen {
     justify-content: space-around;
     align-items: stretch;
     background-color: rgb(165, 164, 164);
-    padding: 29px;
+    padding: 30px;
     border-radius: 30px;
     }
 
 .card {
     border-top: 20px;
-    padding-top: 20px;
+    padding: 30px;
     min-width: 220px;
     text-align: center;
     border: transparent;

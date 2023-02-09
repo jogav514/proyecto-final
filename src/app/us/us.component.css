@@ -9,11 +9,12 @@ h2 {
 }
 
 .main {
-    margin: 50px auto;
+    margin: 30px auto;
     border: none;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: stretch;
     background-color: rgb(165, 164, 164);
     padding: 30px;
     border-radius: 30px;
@@ -22,16 +23,12 @@ h2 {
 
 .card {
     padding: 50px;
-    padding-top: 20px;
-    margin-right: 20px;
-    margin-top: 10px;
     min-width: 200px;
     text-align: center;
     border: transparent;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    
+    justify-content: baseline;
 }
 
 h2.nurse {
@@ -61,7 +58,7 @@ img {
     border: solid 5px #000;
 }
 
-.lista{
-    list-style:none;
-    
+.lista {
+    list-style: none;
+
 }
