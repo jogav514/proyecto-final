@@ -23,23 +23,22 @@ img.imagen {
     border: none;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: stretch;
     background-color: rgb(165, 164, 164);
     padding: 29px;
     border-radius: 30px;
-}
+    }
 
 .card {
-    padding: 3px;
-    padding-top: 2px;
-    margin-right: 20px;
-    margin-top: 10px;
+    border-top: 20px;
+    padding-top: 20px;
     min-width: 220px;
     text-align: center;
     border: transparent;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: baseline;
 }
 
 h2.program {
@@ -53,7 +52,7 @@ h2.program {
     border-radius: 100px;
     width: 150px;
     height: 150px;
-
+    object-fit: cover;
 }
 
 a {
