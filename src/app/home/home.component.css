@@ -1,3 +1,9 @@
+@media (max-width: 1100px) {
+    body {
+    font-size: .5em;
+    }
+    }
+
 h1,
 h2 {
     text-align: center;
@@ -64,7 +70,7 @@ a {
     background-color: #0c0c0cbe;
     padding: 40px;
     margin-right: 100px;
-    margin-top: 100px;
+    margin-top: 50px;
     text-align: center;
     border: transparent;
     justify-content: center;
