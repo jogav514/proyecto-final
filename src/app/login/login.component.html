@@ -1,22 +1,30 @@
-<form class="row g-3 d-flex col-md-6">
+
+<form class="row g-3 d-flex col-md-6 ">
+    
+    <p *ngIf="loginError" class="error-message">user or password incorrect</p>
     <h1>LogIn</h1>
     <div class="col-md-*">
-        <label for="inputUser" class="form-label">Username or Email</label>
-        <input type="text" class="form-control" id="inputUser" placeholder="Nombre de usuario o correo electrónico">
+        <label for="username" class="form-label">Username or Email</label>
+        <input type="text" class="form-control" placeholder="Nombre de usuario o correo electrónico" name="username"
+            [(ngModel)]="username" />
     </div>
     <div class="col-md-*">
-        <label for="inputPassword" class="form-label">Pasword</label>
-        <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña">
+        <label for="password" class="form-label">Pasword</label>
+        <input type="password" class="form-control" placeholder="Contraseña" name="password" [(ngModel)]="password">
     </div>
-    
 
-    <div class="col-* d-grid gap-2 d-md-block">
-        <button type="submit" class="btn btn-primary">LogIn</button>
-        <a  class="nav-link" routerLink="/signin">SignIn</a>
-</div>
+
+    <div class="col-12 d-flex button">
+        <button class="btn btn-primary" (click)="login()">Log In</button>
+        <a class="btn btn-primary" routerLink="/signin">SignIn</a>
+        <a class="btn btn-primary" routerLink="/home">Return to Home</a>
+    </div>
+
 </form>
 
 <main>
     <router-outlet></router-outlet>
+    
+
 </main>
 
