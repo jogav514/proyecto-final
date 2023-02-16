@@ -1,4 +1,5 @@
 h1{
+    padding: 3px;
     text-align: center;
     background: -webkit-linear-gradient(black, rgb(48, 48, 235));
     background-clip: text;
@@ -37,3 +38,15 @@ h1{
         color:black;
     }
 
+    .content-list{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+
+    .show-theme{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
