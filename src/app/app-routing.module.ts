@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AuthGuard } from './auth.guard';
 import { ContactComponent } from './contact/contact.component';
+import { CoursesComponent } from './courses/courses.component';
 import { EditpasswordComponent } from './editpassword/editpassword.component';
 import { EditprofileComponent } from './editprofile/editprofile.component';
 import { HomeComponent } from './home/home.component';
@@ -55,6 +56,10 @@ const routes: Routes = [
         path: 'editpassword',
         component: EditpasswordComponent,
       },
+      {
+        path: 'courses',
+        component: CoursesComponent,
+      },      
       {
         path: '',
         redirectTo: '/home',

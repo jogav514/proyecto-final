@@ -1,0 +1,39 @@
+h1,
+h2 {
+    text-align: center;
+    background: -webkit-linear-gradient(black, rgb(48, 48, 235));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    color: tomato;
+
+}
+
+
+.objet {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #0c0c0cbe;
+    padding: 40px;
+    margin-top: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: calc(1em + 1vw);
+    line-height: 1em;
+}
+
+img.imagen {
+    margin: 50px auto;
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.titulo{
+    text-decoration: underline;
+}

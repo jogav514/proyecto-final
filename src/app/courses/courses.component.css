@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+    background: -webkit-linear-gradient(black, rgb(48, 48, 235));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: tomato;
+
+}
+.card {
+    padding: 30px;
+    min-width: 200px;
+    text-align: center;
+    border: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: baseline;
+}
+
+
+.main {
+    margin: 0px auto;
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    border-radius: 30px;
+    }
+
+    img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .acordion button{
+        color:black;
+    }
+

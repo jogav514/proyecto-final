@@ -14,6 +14,7 @@ import { HomeComponent } from './home/home.component';
 import { EditprofileComponent } from './editprofile/editprofile.component';
 import { EditpasswordComponent } from './editpassword/editpassword.component';
 import { FormsModule } from '@angular/forms';
+import { CoursesComponent } from './courses/courses.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { FormsModule } from '@angular/forms';
     SigninComponent,
     HomeComponent,
     EditprofileComponent,
-    EditpasswordComponent
+    EditpasswordComponent,
+    CoursesComponent
   ],
   imports: [
     BrowserModule,

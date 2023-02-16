@@ -2,7 +2,7 @@ h1,
 h2 {
     text-align: center;
     background: -webkit-linear-gradient(black, rgb(48, 48, 235));
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     color: tomato;
 
