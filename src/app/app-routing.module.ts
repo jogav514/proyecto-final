@@ -9,6 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { LayoutComponent } from './layout/layout.component';
 import { LoginComponent } from './login/login.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { PaypageComponent } from './paypage/paypage.component';
 import { ProfileComponent } from './profile/profile.component';
 import { ProgramsComponent } from './programs/programs.component';
 import { SigninComponent } from './signin/signin.component';
@@ -59,7 +60,11 @@ const routes: Routes = [
       {
         path: 'courses',
         component: CoursesComponent,
-      },      
+      },
+      {
+        path: 'paypage',
+        component: PaypageComponent,
+      },       
       {
         path: '',
         redirectTo: '/home',

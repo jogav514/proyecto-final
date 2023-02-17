@@ -15,6 +15,7 @@ import { EditprofileComponent } from './editprofile/editprofile.component';
 import { EditpasswordComponent } from './editpassword/editpassword.component';
 import { FormsModule } from '@angular/forms';
 import { CoursesComponent } from './courses/courses.component';
+import { PaypageComponent } from './paypage/paypage.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { CoursesComponent } from './courses/courses.component';
     HomeComponent,
     EditprofileComponent,
     EditpasswordComponent,
-    CoursesComponent
+    CoursesComponent,
+    PaypageComponent
   ],
   imports: [
     BrowserModule,
