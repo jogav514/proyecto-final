@@ -16,6 +16,7 @@ import { EditpasswordComponent } from './editpassword/editpassword.component';
 import { FormsModule } from '@angular/forms';
 import { CoursesComponent } from './courses/courses.component';
 import { PaypageComponent } from './paypage/paypage.component';
+import { ContentComponent } from './courses/content/content.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { PaypageComponent } from './paypage/paypage.component';
     EditprofileComponent,
     EditpasswordComponent,
     CoursesComponent,
-    PaypageComponent
+    PaypageComponent,
+    ContentComponent
   ],
   imports: [
     BrowserModule,

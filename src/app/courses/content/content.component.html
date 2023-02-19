@@ -1,0 +1,9 @@
+<div class="content-list">
+<h3>{{title}}</h3>
+    <ul class="list-unstyled ps-4dot5">
+        <li class="mb-4" *ngFor="let item of items">
+            <a [routerLink]="[item.path]" class="text-decoration-none">{{item.text}}</a>
+
+        </li>
+    </ul>
+</div>
