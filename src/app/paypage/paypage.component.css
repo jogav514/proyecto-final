@@ -18,3 +18,27 @@ h1{
     font-size: calc(1em + 1vw);
     line-height: 1em;
 }
+.compra{
+    background-color: deepskyblue;
+    margin: 40px;
+    padding: 80px;
+}
+
+.main {
+    margin: 45px auto;
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    border-radius: 100px;
+    }
+
+.card {
+    text-align: center;
+    border: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: baseline;
+}
+

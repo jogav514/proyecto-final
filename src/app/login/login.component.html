@@ -1,23 +1,23 @@
 
 <form class="row g-3 d-flex col-md-6 ">
     
-    <p *ngIf="loginError" class="error-message">user or password incorrect</p>
+    <p *ngIf="loginError" class="error-message">Usuario o Contraseña incorrecta</p>
     <h1>LogIn</h1>
     <div class="col-md-*">
-        <label for="username" class="form-label">Username or Email</label>
+        <label for="username" class="form-label">Usuario o Email</label>
         <input type="text" class="form-control" placeholder="Nombre de usuario o correo electrónico" name="username"
             [(ngModel)]="username" />
     </div>
     <div class="col-md-*">
-        <label for="password" class="form-label">Pasword</label>
+        <label for="password" class="form-label"></label>
         <input type="password" class="form-control" placeholder="Contraseña" name="password" [(ngModel)]="password">
     </div>
 
 
     <div class="col-12 d-flex button">
-        <button class="btn btn-primary" (click)="login()">Log In</button>
-        <a class="btn btn-primary" routerLink="/signin">SignIn</a>
-        <a class="btn btn-primary" routerLink="/home">Return to Home</a>
+        <button class="btn btn-primary" (click)="login()">Ingresar</button>
+        <a class="btn btn-primary" routerLink="/signin">Registrarse</a>
+        <a class="btn btn-primary" routerLink="/home">Volver al Inicio</a>
     </div>
 
 </form>
