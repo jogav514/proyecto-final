@@ -11,8 +11,10 @@ import { LoginComponent } from './login/login.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { PaypageComponent } from './paypage/paypage.component';
 import { ProfileComponent } from './profile/profile.component';
+import { ProgrammeComponent } from './programme/programme.component';
 import { ProgramsComponent } from './programs/programs.component';
 import { SigninComponent } from './signin/signin.component';
+import { SubscriptionComponent } from './subscription/subscription.component';
 import { UsComponent } from './us/us.component';
 
 const routes: Routes = [
@@ -64,7 +66,15 @@ const routes: Routes = [
       {
         path: 'paypage',
         component: PaypageComponent,
-      },       
+      },   
+      {
+        path:'programme',
+        component:ProgrammeComponent,
+      },  
+      {
+        path:'subscription',
+        component:SubscriptionComponent,
+      },   
       {
         path: '',
         redirectTo: '/home',

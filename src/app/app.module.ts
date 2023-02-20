@@ -17,6 +17,8 @@ import { FormsModule } from '@angular/forms';
 import { CoursesComponent } from './courses/courses.component';
 import { PaypageComponent } from './paypage/paypage.component';
 import { ContentComponent } from './courses/content/content.component';
+import { ProgrammeComponent } from './programme/programme.component';
+import { SubscriptionComponent } from './subscription/subscription.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +35,10 @@ import { ContentComponent } from './courses/content/content.component';
     EditpasswordComponent,
     CoursesComponent,
     PaypageComponent,
-    ContentComponent
+    ContentComponent,
+    ProgrammeComponent,
+    SubscriptionComponent,
+    
   ],
   imports: [
     BrowserModule,

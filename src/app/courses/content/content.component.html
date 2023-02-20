@@ -13,6 +13,7 @@
                 <div class="content-list">
                     <ul class="list-unstyled ps-4dot5">
                         <li class="mb-4" *ngFor="let subItem of item.subitems">
+                            <input type="checkbox" name="select-item" id="select-item" class="m-2"/>
                             <a [routerLink]="[subItem.path]" class="text-decoration-none">{{subItem.text}}</a>
                         </li>
                     </ul>

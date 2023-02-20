@@ -1,8 +1,15 @@
-h1{
+h1,
+h2 {
     text-align: center;
+    background: -webkit-linear-gradient(black, rgb(48, 48, 235));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 20px;
+    color: tomato;
+
 }
 .profile{
-    margin: 20px auto;
+    margin-top: 20px auto;
 
 }
 
@@ -45,4 +52,9 @@ img {
     
     font-size: calc(1em + 1vw);
     line-height: 1em;
+}
+.compras{
+    background-color: deepskyblue;
+    margin: 40px;
+    padding: 80px;
 }

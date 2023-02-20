@@ -1,0 +1,10 @@
+h1,
+h2 {
+    text-align: center;
+    background: -webkit-linear-gradient(black, rgb(48, 48, 235));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 20px;
+    color: tomato;
+
+}

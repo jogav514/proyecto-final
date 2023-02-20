@@ -20,12 +20,15 @@
                 <li class="nav-item col-md-3">
                     <a class="nav-link" routerLink="/contact">Contactanos</a>
                 </li>
+                <li class="nav-item col-md-3">
+                    <a class="nav-link" routerLink="/programme">Programación</a>
+                </li>
                 <ng-container *ngIf="isUserLoggedIn">
                 <li class="nav-item col-md-3">
                     <a class="nav-link" routerLink="/profile">Perfil</a>
                 </li>
                 <li class="nav-item col-md-3">
-                    <a class="nav-link" routerLink="" (click)="logout()">Cerrar Seción</a>
+                    <a class="nav-link" routerLink="" (click)="logout()">Cerrar Sesión</a>
                 </li>
                 </ng-container>
                 <li class="nav-item col-md-3"  *ngIf="!isUserLoggedIn">
@@ -57,17 +60,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto  mb-2 mb-lg-0 ">
                     <li class="nav-item ">
-                        <a class="nav-link" routerLink="/contact">contact</a>
+                        <a class="nav-link" routerLink="/contact">Contactanos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" routerLink="/">connect Us</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" routerLink="/us">us</a>
+                        <a class="nav-link" routerLink="/us">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" routerLink="/">social media</a>
+                        <a class="nav-link">&copy; EAFIT - 2023</a>
                     </li>
 
                 </ul>
